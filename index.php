@@ -17,6 +17,7 @@
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main wrapper" role="main">
+	<p class="title is-size-1">TESTE</p>
 		<?php if ( have_posts() ) : ?>
 			<div class="container">
 				<div class="columns is-multiline">

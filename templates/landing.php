@@ -26,16 +26,16 @@
 		bulmapress_custom_query(array(
 			'post_type' => 'post',
 			'post_class'	=> 'posts',
-			'section_title' => 'Recent Posts',
+			'section_title' => 'Posts Recentes',
 			'section_columns' => 3,
 			'section_max_posts' => 3,
-			'section_button_text' => 'See all Posts'
+			'section_button_text' => 'Posts Recentes'
 			)
 		);
 		bulmapress_custom_query(array(
 			'post_type' => 'page',
 			'post_class'	=> 'pages',
-			'section_title' => 'Recent Pages',
+			'section_title' => 'Páginas Recentes',
 			'section_columns' => 4,
 			'section_max_posts' => 4
 			)
