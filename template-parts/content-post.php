@@ -8,6 +8,14 @@
  */
 ?>
 
+<style>
+
+.card {
+	border-radius:0.5rem;
+}
+
+</style>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class('card'); ?>>
 	<?php if ( has_post_thumbnail() ): ?>
 		<div class="card-image">
